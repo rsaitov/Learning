@@ -2,4 +2,6 @@
 
 Building microservices, using Docker & Kubernetes, Message Bus & RabbitMQ, Grpc
 
+[.net core 5] [docker] [kubernetes] [rest api] [message bus] [rabbitMQ] [grpc] #grpc
+
 https://www.youtube.com/watch?v=DgVjEo3OGBI
