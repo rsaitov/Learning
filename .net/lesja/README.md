@@ -1,4 +1,4 @@
-Courses by YouTube blogger Leas Jackson.
+# Courses by YouTube blogger Les Jackson.
 
 YouTube: https://www.youtube.com/c/binarythistle
 
