@@ -1,1 +1,1 @@
-# Repository with projects, builded in any courses and learnings
+# Projects, builded on any courses and learnings
