@@ -5,3 +5,5 @@
 [.net core 5] [docker] [kubernetes] [rest api] [message bus] [rabbitMQ] [grpc]
 
 https://github.com/rsaitov/Learning/tree/master/.net/lesja/microservices
+
+---
