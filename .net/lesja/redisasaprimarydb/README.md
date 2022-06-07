@@ -7,3 +7,5 @@ Try to use Redis (renowned for caching) as primary database.
 YouTube - Full Course: https://www.youtube.com/watch?v=GgyizgXwXAg
 
 The author's origin repository: https://github.com/binarythistle/Redis-as-a-Primary-Db-with-example-in-.NET6
+
+Blog: https://dotnetplaybook.com/redis-as-a-primary-database/
