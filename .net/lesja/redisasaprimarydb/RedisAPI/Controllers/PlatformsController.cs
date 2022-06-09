@@ -36,5 +36,12 @@ namespace RedisAPI.Controllers
             _repo.CreatePlatform(platform);
             return CreatedAtRoute(nameof(GetPlatformById), new {Id = platform.Id}, platform);
         }
+
+        [HttpGet]
+        public ActionResult<IEnumerable<Platform>> GetAllPlatforms()
+        {
+            var platforms = _repo.GetAllPlatforms();
+            return Ok(platforms);
+        }
     }
 }
