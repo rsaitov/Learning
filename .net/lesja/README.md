@@ -1,4 +1,4 @@
-# Courses by YouTube blogger Les Jackson.
+# Courses by YouTube blogger Les Jackson
 
 About: https://lesjackson.net/about
 
