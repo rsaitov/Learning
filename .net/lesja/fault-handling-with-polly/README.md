@@ -1,6 +1,6 @@
-# Fault Handling with Polly and .NET 6
+# Fault Handling with Polly and .NET 6 by Les Jackson
 
-Building 2 simple .NET 6 Services and work with the Polly library to ensure we can handle any transient faults that may occur when one service calls the other..
+Building 2 simple .NET 6 Services and work with the Polly library to ensure we can handle any transient faults that may occur when one service calls the other.
 
 [.net core 6] [web api] [rest api] [polly]
 

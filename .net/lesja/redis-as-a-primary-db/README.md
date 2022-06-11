@@ -1,4 +1,4 @@
-# Redis as a Primary DB using a .NET 6 API
+# Redis as a Primary DB using a .NET 6 API by Les Jackson
 
 Try to use Redis (renowned for caching) as primary database.
 

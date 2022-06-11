@@ -14,3 +14,10 @@ https://github.com/rsaitov/Learning/tree/master/.net/lesja/microservices
 https://github.com/rsaitov/Learning/tree/master/.net/lesja/redis-as-a-primary-db
 
 ---
+
+### Fault Handling with Polly and .NET 6 (by Les Jackson)
+[.net core 6] [web api] [rest api] [polly]
+
+https://github.com/rsaitov/Learning/tree/master/.net/lesja/fault-handling-with-polly
+
+---
