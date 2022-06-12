@@ -13,4 +13,5 @@ The author's origin repository: https://github.com/binarythistle/Polly-Beginners
 Blog: https://dotnetplaybook.com/fault-handling-with-polly-a-beginners-guide/
 
 Polly official: http://www.thepollyproject.org/
+
 Polly github: https://github.com/App-vNext/Polly
