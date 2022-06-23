@@ -14,6 +14,8 @@ sqlConnectionBuilder.Password = builder.Configuration["Password"];
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseSqlServer(sqlConnectionBuilder.ConnectionString));
+builder.Services.AddScoped<ICommandRepo, CommandRepo>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
 

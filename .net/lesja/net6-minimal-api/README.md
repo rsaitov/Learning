@@ -17,15 +17,26 @@ Minimal APIs don't have a controller (or use the MVC framework as a whole...)
 - Split program logic into three (interconnected) elements.
 - Widely adopter in web development frameworks: Ruby on Rails, Spring (Java), Django (Python), ASP.NET MVC.
 
+## Some dotnet cli commands
+```
+// create user secret UserId
+dotnet user-secrets set "UserId" "sa"
 
+// create user secret Password
+dotnet user-secrets set "Password" "pwd"
+
+// add initial migration
+dotnet ef migrations add initialmigration
+
+// update database
+dotnet ef database update
+```
 
 
 
 ## Links
 
-YouTube - Full Course: 
+YouTube - Full Course: https://www.youtube.com/watch?v=5YB49OEmbbE
 
-The author's origin repository: 
-
-Blog: 
+The author's origin repository: https://github.com/binarythistle/05E03---Minimal-APIs
 
