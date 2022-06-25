@@ -40,3 +40,4 @@ YouTube - Full Course: https://www.youtube.com/watch?v=5YB49OEmbbE
 
 The author's origin repository: https://github.com/binarythistle/05E03---Minimal-APIs
 
+Minimal API Tutorial: https://docs.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio
