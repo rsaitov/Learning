@@ -8,12 +8,12 @@ Building of a .NET 6 minimal API to contrast and compare it with a MVC API to fu
 (Microsoft Docs)
 
 Minimal APIs don't have a controller (or use the MVC framework as a whole...)
-- Don't support model validation.
-- Don't support for JSONPatch.
+- Don't support model validation by default.
+- Don't support for JSONPatch (allows not to put all model fields to update entity).
 - Don't support filters.
 - Don't support custom model binding (support for IModelBinder).
 **MVC**
-- Software desing patter.
+- Software desing pattern.
 - Split program logic into three (interconnected) elements.
 - Widely adopter in web development frameworks: Ruby on Rails, Spring (Java), Django (Python), ASP.NET MVC.
 
@@ -31,8 +31,6 @@ dotnet ef migrations add initialmigration
 // update database
 dotnet ef database update
 ```
-
-
 
 ## Links
 

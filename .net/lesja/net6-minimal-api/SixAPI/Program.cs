@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen();
 
 var sqlConBuilder = new SqlConnectionStringBuilder();
 
-sqlConBuilder.ConnectionString = builder.Configuration.GetConnectionString("SQLDbConnection");
+sqlConBuilder.ConnectionString = builder.Configuration.GetConnectionString("LocalDbConnection");
 sqlConBuilder.UserID = builder.Configuration["UserId"];
 sqlConBuilder.Password = builder.Configuration["Password"];
 
