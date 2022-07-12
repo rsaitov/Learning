@@ -20,7 +20,7 @@ dotnet dev-certs https --trust
 ## Service Registration Methods
 
 <p align="center">
-  <img width="300" src="https://github.com/rsaitov/title.png" />
+  <img src="https://github.com/rsaitov/Learning/blob/master/.net/lesja/net-developer-toolkit/DI/ServiceRegistrationMethods.png" />
 </p>
 
 ## Links
