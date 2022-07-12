@@ -16,3 +16,13 @@
 // generate self-signed certificate
 dotnet dev-certs https --trust
 ```
+
+## Service Registration Methods
+
+<p align="center">
+  <img width="300" src="https://github.com/rsaitov/title.png" />
+</p>
+
+## Links
+
+https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection
