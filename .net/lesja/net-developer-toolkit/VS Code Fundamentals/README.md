@@ -41,3 +41,7 @@ Editor:
 [Alt + Shift + down_arrow] - Duplicate line
 [Alt + down_arrow] - Move line
 [Ctrl + .] - Resolve error
+
+<p align="center">
+  <img width="800" src="https://github.com/rsaitov/Learning/blob/master/.net/lesja/net-developer-toolkit/VS%20Code%20Fundamentals/keyboard-shortcuts-windows.png" />
+</p>
