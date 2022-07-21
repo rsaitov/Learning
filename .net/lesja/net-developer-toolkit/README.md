@@ -2,7 +2,7 @@
 
 A collection of core techniques and technologies that will set you on the path to enterprise .NET / C# development.
 
-[.net core 6] [dependency injection]
+[.net core 6] [dependency injection] [VSCode]
 
 ## Links
 
