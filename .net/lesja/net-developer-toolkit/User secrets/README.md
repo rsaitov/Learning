@@ -14,7 +14,7 @@ Secret Manager
 ### Default Hierarchy
 Of the same key exists in a later source, it will over-write the previous one: **last loaded key wins**:
 1. appsettings.json
-2. appsettings.<Environment>.json
+2. appsettings.Development.json
 3. User Secrets (only in Development)
 4. Environments Variables
 5. Command Line.
