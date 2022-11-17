@@ -4,6 +4,8 @@
 
 YouTube: https://www.youtube.com/watch?v=cqCBhkNroDI
 
+## Table of contents
+
 1. [Raw string literals](#raw-string-literals)
 2. [List patterns](#list-patterns)
 3. [Generic attributes](#generic-attributes)
