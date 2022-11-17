@@ -1,4 +1,8 @@
-# Features in C# 11
+# Features in C# 11 (by Nick Chapsas)
+
+## Links
+
+YouTube: https://www.youtube.com/watch?v=cqCBhkNroDI
 
 1. [Raw string literals](#raw-string-literals)
 2. [List patterns](#list-patterns)
