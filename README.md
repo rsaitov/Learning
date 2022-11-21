@@ -36,7 +36,7 @@ https://github.com/rsaitov/Learning/tree/master/.net/lesja/net-developer-toolkit
 
 ---
 
-### Features in C# 11
+### Features in C# 11 (by Nick Chapsas)
 [C#] [new features]
 
 https://github.com/rsaitov/Learning/tree/master/.net/features_csharp_11
