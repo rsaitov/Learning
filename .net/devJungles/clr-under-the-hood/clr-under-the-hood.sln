@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clr-under-the-hood", "clr-under-the-hood\clr-under-the-hood.csproj", "{0CB1728C-962E-413B-89DA-A2B82A10F16A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EA027C3-1CB0-44DC-80F2-00FBCDE0B356}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB1728C-962E-413B-89DA-A2B82A10F16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB1728C-962E-413B-89DA-A2B82A10F16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB1728C-962E-413B-89DA-A2B82A10F16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB1728C-962E-413B-89DA-A2B82A10F16A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD770F77-65D1-4245-A39A-4509926EF066}
+	EndGlobalSection
+EndGlobal
