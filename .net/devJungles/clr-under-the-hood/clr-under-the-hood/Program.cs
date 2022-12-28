@@ -1,17 +1,7 @@
-﻿var str = "Hello, World!";
-var ptrStr = AddressOf(str);
-Console.WriteLine($"str address: {ptrStr}");
+﻿using clr_under_the_hood;
 
-var ptrInt = AddressOf(17);
-Console.WriteLine($"int address: {ptrInt}");
+PointerAddress.Execute();
 
-uint[] arr = { 0xAABBCCDD, 0xAABBCCDD, 0xAABBCCDD, 0xAABBCCDD, 0xFFFFFFFF };
-var ptrArr = AddressOf(arr);
-Console.WriteLine($"arr address: {ptrArr}");
+SyncObject.Execute();
 
-// return RAM address of the object
-unsafe IntPtr AddressOf(object o)
-{
-    TypedReference mk = __makeref(o);
-    return **(IntPtr**)&mk;
-}
+ArrayChangeType.Execute();
