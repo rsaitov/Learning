@@ -35,3 +35,7 @@
 |Cnt|Count|Integer amount of something|
 |Pct|Percent|Relative value indicating hundredth parts of any quantity|
 |Qty|Quantity|Calculated value, not money|
+
+# Test Naming Conventions
+7 Popular Unit Test Naming Conventions
+https://dzone.com/articles/7-popular-unit-test-naming
