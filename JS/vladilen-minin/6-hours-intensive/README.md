@@ -10,3 +10,5 @@ JavaScript use cases:
 - Web (Frontend)
 - Server (Backend) NodeJS
 - Mobile (React native, Ionic)
+
+Documentation: https://developer.mozilla.org/ru/ OR "mdn..."
