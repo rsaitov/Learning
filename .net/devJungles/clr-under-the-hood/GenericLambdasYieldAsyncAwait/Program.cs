@@ -38,7 +38,7 @@ IEnumerator<int> DoEnumeration()
 // Save thread id
 // On calling enumerator from other thread - state = -1
 var enumerable = DoEnumerable();
-foreach(var obj in enumerable)
+foreach (var obj in enumerable)
 {
     Console.WriteLine(obj);
 }
@@ -78,7 +78,34 @@ IEnumerable<int> DoEnumerableWithTryFinally()
     {
         //yield return 3;
         Console.WriteLine("IEnumerable After 3");
-    }    
+    }
+}
+
+// 4 async/await
+// State Machine
+
+await M1();
+
+async Task M1()
+{
+    try
+    {
+        await Task.Delay(1000);
+        Console.WriteLine("Hello 1");
+
+    }
+    catch(IOException)
+    {
+        // Low-level C# code handles all exceptions to guarantee
+        // finally call
+        await Task.Delay(500);
+        Console.WriteLine("Hello 2");
+    }
+    finally
+    {
+        await Task.Delay(150);
+        Console.WriteLine("Hello 3");
+    }
 }
 
 class ClassWithEvent
