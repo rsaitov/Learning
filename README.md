@@ -1,6 +1,21 @@
 # Projects, builded on any courses and learnings
 ## Table of contents:
 (not needed yet)
+
+### ChatGPT .NET API Client
+[C#] [.net core 6] [console] [chatGPT] [openAI] [singleFileApp]
+
+https://github.com/rsaitov/Learning/tree/master/.net/lesja/chatGPT-net-api-client
+
+---
+
+### Features in C# 11 (by Nick Chapsas)
+[C#] [new features]
+
+https://github.com/rsaitov/Learning/tree/master/.net/features_csharp_11
+
+---
+
 ### Microservices (by Les Jackson)
 [.net core 5] [docker] [kubernetes] [rest api] [message bus] [rabbitMQ] [grpc]
 
@@ -33,12 +48,5 @@ https://github.com/rsaitov/Learning/tree/master/.net/lesja/net6-minimal-api
 [.net core 6] [dependency injection] [VSCode]
 
 https://github.com/rsaitov/Learning/tree/master/.net/lesja/net-developer-toolkit
-
----
-
-### Features in C# 11 (by Nick Chapsas)
-[C#] [new features]
-
-https://github.com/rsaitov/Learning/tree/master/.net/features_csharp_11
 
 ---
