@@ -1,0 +1,19 @@
+BEGIN TRAN;
+
+DECLARE @Value INT;
+
+SELECT @Value = Value
+FROM Table1
+WHERE Id = 1;
+
+WAITFOR DELAY '00:00:10';
+
+UPDATE Table1 
+SET Value = @Value + 5
+WHERE Id = 1;
+
+COMMIT TRAN;
+
+SELECT Value 
+FROM Table1
+WHERE Id = 1;

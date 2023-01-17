@@ -1,0 +1,15 @@
+
+
+BEGIN TRAN;
+
+
+
+
+UPDATE Table1 
+SET Value = 42
+WHERE Id = 1;
+
+
+
+
+COMMIT TRAN;

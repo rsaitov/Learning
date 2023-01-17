@@ -1,0 +1,11 @@
+
+
+BEGIN TRAN;
+
+
+
+INSERT INTO Table1 (Value)
+VALUES(100)
+
+
+COMMIT TRAN;

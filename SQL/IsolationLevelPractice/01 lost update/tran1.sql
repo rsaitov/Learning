@@ -1,0 +1,13 @@
+BEGIN TRAN;
+
+UPDATE Table1
+SET Value = Value * 10
+WHERE Id = 1;
+
+WAITFOR DELAY '00:00:10';
+
+ROLLBACK;
+
+SELECT Value 
+FROM Table1
+WHERE Id = 1;
