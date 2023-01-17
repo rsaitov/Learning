@@ -23,5 +23,5 @@ ___
 `SERIALIZABLE` - transactions that interact with the same data are run sequentially rather than concurrently.
 
 <p>
-<img src="https://retool.com/blog/content/images/2020/03/Image-2020-01-21-at-5.48.02-PM.png" />
+<img src="https://sqlperformance.com/wp-content/uploads/2015/04/image.png" />
 </p>
