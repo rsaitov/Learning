@@ -21,3 +21,7 @@ ___
 `SNAPSHOT` - a transaction can only read data that was available at the start of the current transaction along with any uncommitted changes made in the current transaction.
 
 `SERIALIZABLE` - transactions that interact with the same data are run sequentially rather than concurrently.
+
+<p>
+<img src="https://retool.com/blog/content/images/2020/03/Image-2020-01-21-at-5.48.02-PM.png" />
+</p>
