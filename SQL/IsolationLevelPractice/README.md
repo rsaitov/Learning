@@ -32,5 +32,12 @@ Reading an uncommitted isolation level or NOLOCK hint do not require shared lock
 **Transaction starts and acquires a shared range lock (RangeS-S). Shared range lock locks not only existing records, but also records that could potentially fall into the predicate range specified in WHERE clause (all records with Id ≥2).**
 
 <p>
-<img src="https://sqlperformance.com/wp-content/uploads/2015/04/image.png" />
+<img src="https://retool.com/blog/content/images/2020/03/Image-2020-01-21-at-5.48.02-PM.png" />
 </p>
+
+## Summary
+- The higher the isolation level of the transaction, the better the protection against concurrency problems, but the lower the performance.
+- Serializable is the highest isolation level that protects transactions from all types of concurrency phenomena.
+- Repeatable read isolation level does not protect transactions from a phantom reads problem.
+- Read committed transaction isolation level does not protect transactions from phantom reads, non-repeatable reads and lost updates problems.
+- Read uncommitted does not protect transactions from phantom reads, non-repeatable read, lost updates and dirty reads problems.
