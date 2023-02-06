@@ -23,6 +23,7 @@ public class BasicAuthenticationHandler : AuthenticationHandler<AuthenticationSc
     {
         try
         {
+            Console.WriteLine("Check!");
             var authHeader = Request.Headers["Authorization"].ToString();
             if (authHeader != null && authHeader.StartsWith("basic", StringComparison.OrdinalIgnoreCase))
             {
