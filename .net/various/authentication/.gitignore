@@ -394,3 +394,6 @@ MigrationBackup/
     About
 
 Loading complete
+
+# CONFIG appsettings.json
+appsettings.Development.json
